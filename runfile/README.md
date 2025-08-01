@@ -22,7 +22,7 @@ For example:
 The config runfile structure is the following:
 ```
 {
-    "mv-params": {
+    "benchmarks": {
     },
     "tool-params": [
     ],
@@ -35,7 +35,7 @@ The config runfile structure is the following:
 }
 ```
 where:
- - `mv-params`: benchmark specific params
+ - `benchmarks`: benchmark specific params
  - `tool-params`: performance tool params, e.g. perf, sysstat, procstat, etc.
  - `tags`: tags to identify the test run in the form of "key":"value"
  - `endpoints`: endpoint definitions and configuration settings
