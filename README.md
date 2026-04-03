@@ -8,7 +8,7 @@ details about the Crucible runfile can be found in the [runfile doc](runfile/REA
 
 # Running a benchmark with Crucible
 ```
-crucible run --from-file <run-file-name>.json
+crucible run <run-file-name>.json
 ```
 
 ## Result summary

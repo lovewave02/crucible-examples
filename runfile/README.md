@@ -8,7 +8,7 @@ in the same JSON file. For example, to test `oslat` with Crucible
 using one single JSON config, run:
 
 ```
-crucible run --from-file oslat-k8s-runfile.json
+crucible run oslat-k8s-runfile.json
 ```
 
 ## Naming standards

@@ -50,4 +50,4 @@ replace_value int samples ${samples} '."run-params"."num-samples" = $samples'
 replace_value int samples ${samples} '."run-params"."max-sample-failures" = $samples'
 
 ## execution command
-crucible run --from-file fio.json
+crucible run fio.json
